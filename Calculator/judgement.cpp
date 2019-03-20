@@ -2,6 +2,8 @@
 #include <vector>
 #include <string>
 #include <utility>
+#include "interface.h"
+
 using namespace std;
 
 vector<pair<string, int>> word;
@@ -24,7 +26,7 @@ int word_analysis(vector<pair<string, int>>& word, string expr)
 		expr.erase(pos, 3);
 	}
 	word.push_back(make_pair(" ", 0));
-	for (int i = 0; i<expr.length(); ++i)
+	for (int i = 0; i < expr.length(); ++i)
 	{
 		// 如果是 + - * / ( ) ^ 
 		if (expr[i] == '(' || expr[i] == ')' || expr[i] == '+'
@@ -114,7 +116,7 @@ int word_analysis(vector<pair<string, int>>& word, string expr)
 // 读下一单词的种别编码
 void Next()
 {
-	if (idx<word.size())
+	if (idx < word.size())
 		sym = word[idx++].second;
 	else
 		sym = 0;
@@ -205,7 +207,22 @@ int main()
 		Next();
 		E();
 		if (sym == 0 && err == 0)  // 注意要判断两个条件
-			cout << "Right Expression." << endl;
+		{
+			try
+			{
+				double tmp = getInfo(expr);
+				if (isinf(tmp) || isnan(tmp)) {
+					cout << "Wrong Expression." << endl;
+				}
+				else {
+					cout << tmp << endl;
+				}
+			}
+			catch (exception e)
+			{
+				cout << "Wrong Expression." << endl;
+			}
+		}
 		else
 			cout << "Wrong Expression." << endl;
 	}

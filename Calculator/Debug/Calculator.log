@@ -1,5 +1,7 @@
-﻿  judgement.cpp
-C:\Users\Joker\source\repos\Calculator\Calculator\judgement.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\Joker\source\repos\Calculator\Calculator\judgement.cpp(100): warning C4018: “<”: 有符号/无符号不匹配
-C:\Users\Joker\source\repos\Calculator\Calculator\judgement.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+﻿  calculator.cpp
+C:\Users\Joker\source\repos\Calculator\Calculator\calculator.cpp(56): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
   Calculator.vcxproj -> C:\Users\Joker\source\repos\Calculator\Debug\Calculator.exe

@@ -115,7 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="calculator.cpp" />
     <ClCompile Include="judgement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
