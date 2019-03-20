@@ -1,0 +1,5 @@
+﻿  judgement.cpp
+C:\Users\Joker\source\repos\Calculator\Calculator\judgement.cpp(27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Joker\source\repos\Calculator\Calculator\judgement.cpp(100): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Joker\source\repos\Calculator\Calculator\judgement.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+  Calculator.vcxproj -> C:\Users\Joker\source\repos\Calculator\Debug\Calculator.exe
