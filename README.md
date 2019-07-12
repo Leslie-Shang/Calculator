@@ -4,3 +4,5 @@
 # Part of Calculator 2
 计算表达式
 见`Calculator/calculator.cpp` *感谢   https://github.com/LJIJCJ   *
+# IOS计算器程序实现
+见https://github.com/shabbyhouse418/NewCalculator
