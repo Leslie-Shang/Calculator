@@ -1,7 +1,1 @@
-﻿  calculator.cpp
-C:\Users\Joker\source\repos\Calculator\Calculator\calculator.cpp(56): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
-          with
-          [
-              _Ty=double
-          ]
-  Calculator.vcxproj -> C:\Users\Joker\source\repos\Calculator\Debug\Calculator.exe
+﻿D:\VS\Visual Studio 2019 Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(379,5): error MSB8020: The build tools for Visual Studio 2017 (Platform Toolset = 'v141') cannot be found. To build using the v141 build tools, please install Visual Studio 2017 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".
